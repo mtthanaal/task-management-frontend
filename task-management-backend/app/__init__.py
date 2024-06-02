@@ -7,7 +7,7 @@ jwt = JWTManager()
 
 def create_app():
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/taskdb'
+    app.config['https://cloud.mongodb.com/v2/665b4925bdea6c1a9e6a298c#'] = 'thanaal20220062:MT020605'
     app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'
 
     db.init_app(app)
